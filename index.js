@@ -4,7 +4,6 @@ function takeANumber(line, name) {
     array.push(name)
     return "Welcome, " + name + ". You are number " + line[i] + " in line."
   }
-  return array
 }
 
 function nowServing(line) {
