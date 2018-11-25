@@ -13,6 +13,7 @@ function nowServing(line) {
   } else {
     return "Currently serving " + line[0] + "."
     line.shift()
+    return line
   }
 }
 
