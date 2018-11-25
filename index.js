@@ -12,8 +12,9 @@ function nowServing(line) {
     return "There is nobody waiting to be served!"
   } else {
     return "Currently serving " + line[0] + "."
-    return line.slice(1)
+    line.splice(1)
   }
+  
 }
 
 function currentLine(line) {
