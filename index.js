@@ -14,7 +14,6 @@ function nowServing(line) {
     return "Currently serving " + line[0] + "."
     line = ["Blake", "Avi"]
   }
-  return line
 }
 
 function currentLine(line) {
