@@ -1,7 +1,6 @@
 function takeANumber(line, name) {
-  var array = []
   for (var i = 0; i < line.length; i++) {
-    array.push(name)
+    line.push(name)
     return "Welcome, " + name + ". You are number " + i+1 + " in line."
   }
 }
