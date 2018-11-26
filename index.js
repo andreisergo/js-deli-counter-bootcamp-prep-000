@@ -2,7 +2,7 @@ function takeANumber(line, name) {
   var array = []
   for (var i = 0; i < line.length; i++) {
     array.push(name)
-    return "Welcome, " + name + ". You are number " + line[i] + " in line."
+    return "Welcome, " + name + ". You are number " + i+1 + " in line."
   }
 }
 
